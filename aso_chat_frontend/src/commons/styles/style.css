@@ -1,0 +1,241 @@
+.registerFormStyle {
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), transparent;
+    float: left;
+    width:25%;
+    margin-top: 10%;
+    margin-left: 15%;
+    padding: 3%;
+    border-radius: 50px;
+}
+
+.loginFormStyle {
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), transparent;
+    float: right;
+    width:25%;
+    margin-top: 10%;
+    margin-right: 15%;
+    padding: 3%;
+    border-radius: 50px;
+}
+
+.verticalLine {
+    border-left: 6px solid #ffd500;
+    height: 75%;
+    position: absolute;
+    left: 49%;
+    margin-top: 8%;
+    top: 0;
+  }
+
+.registerLabelStyle {
+    color: #ffd500;
+    position:absolute;
+    background: transparent;
+    margin-top:5%;
+    margin-left:22%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px
+}
+
+.logoStyle{
+    position: absolute;
+    content: url('../images/icon.png');
+    margin-left:46%;
+}
+
+.loginLabelStyle {
+    color: #ffd500;
+    position:absolute;
+    background: transparent;
+    margin-top:5%;
+    margin-left: 69%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px
+}
+
+#usernameFieldREGISTER::placeholder{
+    color: #ffd500;
+}
+
+#passwordFieldREGISTER::placeholder{
+    color: #ffd500;
+}
+
+#usernameFieldLOGIN::placeholder{
+    color: #ffd500;
+}
+
+#passwordFieldLOGIN::placeholder{
+    color: #ffd500;
+}
+
+#inputChat::placeholdeR{
+    color: #ffd500
+}
+
+.buttonStyle{
+    width: 100%;
+    position: relative;
+    padding-right: 57%;
+}
+
+.formsWrapper{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: url('../images/home-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.label{
+    color: #ffd500;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: bold;
+    display:block;
+    margin-bottom:1%;
+}
+
+.button{
+    background: transparent;
+    width: 350%;
+    color: #ffd500;
+    border-color: #ffd500;
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    display:block;
+    background: transparent;
+    border-color: #ffd500;
+    border-width: medium;
+    color: #ffd500;
+    margin-bottom:5%;
+    border-radius: 5px;
+}
+
+.alert{
+    color:red;
+    font-weight: bold;
+}
+
+.success{
+    color:green;
+    font-weight:bold;
+}
+
+.validators{
+    color: #ffd500;
+}
+
+.navBarLabel{
+    color: #ffd500;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.chatContainer{
+    position: absolute;
+    width:70%;
+    height:80%;
+    margin-top: 1%;
+    margin-left: 15%;
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), transparent;
+    border: 1px solid #ffd500;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.inputContainer{
+    position: absolute;
+    width: 70%;
+    height: 5%;
+    margin-top: 41%;
+    margin-left: 15%;
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), transparent;
+    border: 1px solid #ffd500;
+    border-radius: 20px;
+    color: #ffd500;
+}
+
+.inputChat{
+    width:90%;
+    height:100%;
+    background: transparent;
+    border: 0px solid transparent;
+    color: #ffd500;
+    outline-width: 0;
+}
+
+.sendButton{
+    float:right;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+.sent{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    background-color: #ffd500;
+    max-width: 600px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 15px 0;
+    word-break: break-all;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.recieved{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #f7ecb8;
+    background-color: transparent;
+    border: 1px solid #ffd500;
+    max-width: 600px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 15px 0;
+    word-break: break-all;
+    margin-right: auto;
+}
+
+.senderAuthor{
+    color: grey;
+    font-size: small;
+}
+
+.senderRecieved{
+    color: #ffd500;
+    font-size: small;
+}
