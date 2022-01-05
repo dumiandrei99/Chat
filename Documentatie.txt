@@ -1,0 +1,18 @@
+Pentru a 3-a parte a proiectului, am Dockerizat backend-ul aplicatiei (aplicatia de Django).
+Pentru a face acest lucru, am creat urmatoarele: 
+
+2 fisere de Dockerfile - unul pentru dev si altul pentru prod
+	-> aceste fisere sunt folosite pentru a crea si rula containerele de docker
+
+2 fisiere de .env pentru codul de Django - unul pentru dev si altul pentru prod
+	-> aceste fisiere sunt folosite pentru a salva anumite variabile in mod "global" si pot fii modificate chiar daca cineva nu are acces la cod
+
+2 fisiere de .env pentru PostgreSQL - unul pentru dev si altul pentru prod
+	-> aceste fisiere sunt folosite pentru a salva anumite variabile in mod "global" si pot fii modificate chiar daca cineva nu are acces la DB
+
+2 fisiere de docker-compose.yml - unul pentru dev si altul pentru prod
+	-> aceste fisiere sunt folosite pentru a asambla o aplicatie ce ruleaza mai multe containere de Docker
+
+Un folder separat pentru nginx 
+	-> in acest folder se gaseste un alt Dockerfile pentru nginx si un fisier de config
+	-> nginx-ul ajuta la reverse proxying
